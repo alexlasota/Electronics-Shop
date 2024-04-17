@@ -36,7 +36,6 @@ public class Cart {
         return totalPrice;
     }
 
-
     public Order checkout(Customer customer, ZonedDateTime orderTime) {
         List<Product> productsCopy = new ArrayList<>(products);
 
