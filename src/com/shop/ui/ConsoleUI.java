@@ -92,12 +92,6 @@ public class ConsoleUI {
         ZonedDateTime orderTime = ZonedDateTime.now();
         Order order = cart.checkout(customer, orderTime);
         orderProcessor.processOrder(order);
-//    }
-//
-//    public static void main(String[] args) {
-//        ConsoleUI consoleUI = new ConsoleUI();
-//        consoleUI.start();
+
     }
 }
-
-//Utworzenie interfejsu command line umożliwiającego przeglądanie produktów, dodawanie do koszyka, składanie zamówienia.

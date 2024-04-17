@@ -11,7 +11,6 @@ public class Customer {
     }
 
     public Customer() {
-
     }
 
     public String getFirstName() {

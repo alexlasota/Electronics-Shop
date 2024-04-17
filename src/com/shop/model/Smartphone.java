@@ -9,7 +9,6 @@ public class Smartphone extends Product {
     private int batteryCapacity;
     private boolean accessories;
 
-
     public Smartphone(long id, String productName, double price, int amountOfProduct, List<String> availableColors, String color, int batteryCapacity, boolean accessories) {
         super(id, productName, price, amountOfProduct);
         this.availableColors = availableColors;
