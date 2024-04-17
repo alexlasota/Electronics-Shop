@@ -12,7 +12,6 @@ public class ShopApplication {
     public static void main(String[] args) {
         ProductProcessor productManager = new ProductProcessor();
 
-
         Product product1 = new Product(1, "Laptop Dell", 2999, 10);
         Product product2 = new Smartphone(2, "iPhone 13", 4999, 5, List.of("Black", "White", "Gold"), "Black", 3000, true);
         Product product3 = new Computer(3, "Desktop PC", 3499, 15, "Intel Core i7", Computer.RamSize.RAM_8GB);
@@ -20,7 +19,6 @@ public class ShopApplication {
         productManager.addProduct(product1);
         productManager.addProduct(product2);
         productManager.addProduct(product3);
-
 
         ConsoleUI consoleUI = new ConsoleUI(productManager);
         consoleUI.start();
